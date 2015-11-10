@@ -17,8 +17,8 @@ $dirPath = __DIR__."/img/";
 $imgName = SwitchingImageLoader::_()->setDirPath($dirPath)      #パス指定
                                     ->setExtension("png")       #使いたい画像の拡張子
                                     ->excludeStr("DSC")         #取り除きたいファイルに含まれた文字
-                                    ->setBaseDate("2015/10/9") #切り替え用基準日
-                                    ->switchTime("17:20")        #切り替え用時間
+                                    ->setBaseDate("2015/10/10") #切り替え用基準日
+                                    ->switchTime("8:00")        #切り替え用時間
                                     ->getImgName();             #画像名の取得
 
 // 相対パスでセット
