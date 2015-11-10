@@ -149,7 +149,7 @@ class SwitchingImageLoader
 
     /**
      * 切り替える時間を切り替える
-     * 深夜00:00から指定時刻までの
+     * 深夜00:00から指定時刻までの間は切り替えない
      *
      * @access public
      * @return string $path 取得した画像パス
