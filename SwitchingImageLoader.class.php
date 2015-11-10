@@ -213,7 +213,7 @@ class SwitchingImageLoader
         // 何秒離れているかを計算
         $secondDiff = abs($targetDate - $baseDate);
 
-        // 戻り値
+        // 日付けにして返す
         return $secondDiff / (60 * 60 * 24);
     }
 
